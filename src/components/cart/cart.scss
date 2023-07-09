@@ -1,0 +1,169 @@
+button {
+    outline: none;
+}
+
+#cartPage {
+    .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 30px;
+
+        .block {
+            width: 100%;
+            height: 40px;
+            background-color: #fff;
+            margin: 10px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            font-family: 'Montserrat', sans-serif;
+            color: #000;
+            background-color: #397300;
+            color: #fff;
+            border-radius: 5px;
+
+            .delBtn {
+                width: 25px;
+                height: 25px;
+                background-color: #222;
+                border-radius: 4px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+            }
+        }
+
+        .emptyCart {
+            color: #9d9d9d;
+            font-family: "Kavoon", cursive;
+            font-size: 30px;
+            width: 100%;
+            height: 60px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+            border: 2px solid #9d9d9d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .end {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+
+            .price {
+                color: #7dff78;
+                font-family: 'Kavoon', cursive;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 40px;
+            }
+
+            .buy {
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                border: none;
+                color: #7dff78;
+                font-family: 'Kavoon', cursive;
+                font-size: 20px;
+                background-color: #367834;
+                cursor: pointer;
+            }
+
+            .block {
+                display: flex;
+                flex-direction: row;
+
+                .your_table {
+                    display: flex;
+                    flex-direction: column;
+
+
+                }
+            }
+        }
+    }
+}
+
+.block {
+    font-family: 'Montserrat', sans-serif;
+    .css-1wuilmg-MuiAutocomplete-root{
+        margin: 30px 0;
+    }
+    .your_table {
+        .cnt-er {
+            margin-top: 10px;
+            display: flex;
+            font-family: 'Montserrat', sans-serif;
+            flex-direction: row;
+            font-size: 20px;
+            .min,
+            .plus {
+                width: 40px;
+                height: 40px;
+                background-color: #000000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                color: #ffffff;
+            }
+
+            .min {
+                border-radius: 5px 0 0 5px;
+            }
+
+            .plus {
+                border-radius: 0 5px 5px 0;
+            }
+
+            .count {
+                height: 40px;
+                width: 60px;
+                font-size: 17px;
+                background-color: #ffffff;
+                display: flex;
+                justify-content: center;
+                color: #000;
+                align-items: center;
+                border-left: 3px solid #ffffff;
+                border-right: 3px solid #ffffff;
+            }
+        }
+    }
+}
+
+.closeBtn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.buyDialog{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #58ff4f;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.leftScreen{
+    width: 30%;
+    height: 100%;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px 50px;
+    flex-direction: column;
+    .up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        .h3{
+            font-family: 'Kavoon', cursive;
+            font-size: 30px;
+            margin-left: 15px;
+        }
+    }
+    .center{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        a{
+            font-family: 'Kavoon', cursive;
+            color: #111;
+            text-decoration: none;
+            .block_leftScreen{
+                width: 100%;
+                font-size: 20px;
+                background-color: #fff;
+                border-radius: 7px;
+                height: 50px;
+                margin: 10px 0;
+                padding: 0 20px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                transition: 0.4s;
+            }
+            .block_leftScreen:hover{
+                margin-left: 20px;
+            }
+        }
+    }
+    .bottom{
+        width: 100%;
+        a{
+            font-family: 'Kavoon', cursive;
+            color: #111;
+            text-decoration: none;
+            .block_leftScreen{
+                width: 100%;
+                font-size: 20px;
+                background-color: #fff;
+                border-radius: 7px;
+                height: 50px;
+                margin: 10px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                transition: 0.4s;
+            }
+            .block_leftScreen:hover{
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
