@@ -1,3 +1,7 @@
+.wrap .screenRight .css-17led8x {
+  display: flex;
+  justify-content: center;
+}
 .wrap .screenRight .bottom .block .card {
   width: 300px;
   height: 350px;
@@ -183,65 +187,59 @@
   margin-top: 30px;
 }
 
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-  width: 1000px;
+.css-uhb5lp {
+  width: 100%;
   height: 80vh;
-  max-width: 100% !important;
-  background: linear-gradient(135deg, #343434 0%, #666 100%);
-  border-radius: 22px;
-  color: #B5FF7B;
-  font-family: "Kavoon", cursive !important;
+  background-color: #a4a4a4;
+  font-family: "Kavoon", cursive;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper h2 {
-  font-family: "Kavoon", cursive !important;
+.css-uhb5lp .css-ohyacs {
   color: #fff;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root {
+.css-uhb5lp .css-1ty026z {
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: row;
-  padding: 0;
-  padding-top: 30px;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .left {
+.css-uhb5lp .css-1ty026z .left {
   width: 50%;
   height: 100%;
-  display: flex;
-  justify-content: center;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .left .blockImg {
-  width: 300px;
-  height: 300px;
+.css-uhb5lp .css-1ty026z .left .blockImg {
+  width: 80%;
+  height: 50%;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right {
+.css-uhb5lp .css-1ty026z .right {
   width: 50%;
   height: 100%;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .mainP {
+.css-uhb5lp .css-1ty026z .right .mainP {
   font-size: 35px;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection {
+.css-uhb5lp .css-1ty026z .right .count_selection {
   margin-top: 30px;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cntS {
+.css-uhb5lp .css-1ty026z .right .count_selection .cntS {
   font-size: 20px;
   color: #B5FF7B;
   font-family: "Kavoon", cursive;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cnt-er {
+.css-uhb5lp .css-1ty026z .right .count_selection .cnt-er {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
   font-size: 20px;
   color: #fff;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cnt-er .min,
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cnt-er .plus {
+.css-uhb5lp .css-1ty026z .right .count_selection .cnt-er .min,
+.css-uhb5lp .css-1ty026z .right .count_selection .cnt-er .plus {
   width: 40px;
   height: 40px;
   background-color: #397300;
@@ -250,13 +248,13 @@
   align-items: center;
   cursor: pointer;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cnt-er .min {
+.css-uhb5lp .css-1ty026z .right .count_selection .cnt-er .min {
   border-radius: 5px 0 0 5px;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cnt-er .plus {
+.css-uhb5lp .css-1ty026z .right .count_selection .cnt-er .plus {
   border-radius: 0 5px 5px 0;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .count_selection .cnt-er .count {
+.css-uhb5lp .css-1ty026z .right .count_selection .cnt-er .count {
   height: 40px;
   width: 60px;
   font-size: 17px;
@@ -267,40 +265,40 @@
   border-left: 1px solid #333;
   border-right: 1px solid #333;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size {
+.css-uhb5lp .css-1ty026z .right .size {
   margin-top: 30px;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size .yes {
+.css-uhb5lp .css-1ty026z .right .size .yes {
   display: flex;
   font-size: 20px;
   flex-direction: column;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size .yes .formControll {
+.css-uhb5lp .css-1ty026z .right .size .yes .formControll {
   margin-top: 10px;
   background-color: #397300;
   width: 300px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size .yes .formControll .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+.css-uhb5lp .css-1ty026z .right .size .yes .formControll .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size .yes .formControll .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+.css-uhb5lp .css-1ty026z .right .size .yes .formControll .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size .yes .formControll .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+.css-uhb5lp .css-1ty026z .right .size .yes .formControll .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
   border: none !important;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .size .yes .formControll .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+.css-uhb5lp .css-1ty026z .right .size .yes .formControll .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
   color: #fff;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .price {
+.css-uhb5lp .css-1ty026z .right .price {
   font-size: 30px;
   margin-top: 30px;
 }
-.css-1t1j96h-MuiPaper-root-MuiDialog-paper .css-ypiqx9-MuiDialogContent-root .right .buyBtn {
+.css-uhb5lp .css-1ty026z .right .buyBtn {
   height: 50px;
   width: 200px;
   border: none;
