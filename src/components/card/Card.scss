@@ -238,7 +238,8 @@
     font-family: "Kavoon", cursive;
 
     .css-ohyacs {
-        color: #fff;
+        color: #B5FF7B;
+        font-family: 'Kavoon', cursive;
     }
 
     .css-1ty026z {
@@ -327,6 +328,10 @@
                     display: flex;
                     font-size: 20px;
                     flex-direction: column;
+                    color: #B5FF7B;
+                    .css-13sljp9{
+                        width: 80%;
+                    }
 
                     .formControll {
                         margin-top: 10px;
