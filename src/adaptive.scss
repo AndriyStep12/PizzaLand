@@ -231,9 +231,10 @@
 }
 
 .css-1ty026z{
-    display: flex;
-    justify-content: center;
     .block{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         .where_place{
             .css-1pfgy4j{
                 margin: 20px 0;
