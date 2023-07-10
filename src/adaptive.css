@@ -160,6 +160,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 .css-1ty026z .block .where_place .css-1pfgy4j {
   margin: 20px 0;
