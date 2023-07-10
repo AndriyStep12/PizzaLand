@@ -146,8 +146,13 @@
     width: 100%;
     height: 40%;
   }
+  .css-uhb5lp .css-1ty026z .left .blockImg {
+    width: 100%;
+    height: 100%;
+  }
   .css-uhb5lp .css-1ty026z .right {
     width: 100%;
+    padding-top: 30px;
     height: 60%;
   }
 }
