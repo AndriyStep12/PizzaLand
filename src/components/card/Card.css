@@ -275,13 +275,10 @@
   flex-direction: column;
   color: #B5FF7B;
 }
-.css-uhb5lp .css-1ty026z .right .size .yes .css-13sljp9 {
-  width: 80%;
-}
 .css-uhb5lp .css-1ty026z .right .size .yes .formControll {
   margin-top: 10px;
   background-color: #397300;
-  width: 300px;
+  width: 80%;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
 }
