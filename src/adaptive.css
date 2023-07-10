@@ -137,5 +137,19 @@
     font-size: 15px;
   }
 }
+@media screen and (max-width: 557px) {
+  .css-uhb5lp .css-1ty026z {
+    display: flex;
+    flex-direction: column;
+  }
+  .css-uhb5lp .css-1ty026z .left {
+    width: 100%;
+    height: 40%;
+  }
+  .css-uhb5lp .css-1ty026z .right {
+    width: 100%;
+    height: 60%;
+  }
+}
 
 /*# sourceMappingURL=adaptive.css.map */
