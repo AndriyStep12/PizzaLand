@@ -7,6 +7,7 @@ import Salads from "./components/saladsPage/saladPage";
 import './components/cssRightScreens/screenRight.css'
 import Drinks from "./components/drinksScreen/drinkScreen";
 import Cart from "./components/cart/cart";
+import './adaptive.css'
 
 const tele = window.Telegram.WebApp;
 

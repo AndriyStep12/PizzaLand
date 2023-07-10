@@ -1,0 +1,186 @@
+::-webkit-scrollbar {
+    width: 4px;
+  
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #B5FF7B;
+    border-radius: 3px 0 0 3px;
+    margin-right: 10px;
+  }
+
+@media screen and (max-width: 1080px) {
+    .wrap{
+        .leftScreen{
+            padding: 30px 30px;
+            .up{
+                .h3{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 929px) {
+    .wrap{
+        overflow-x: hidden;
+        .leftScreen{
+            align-items: center;
+            width: 45%;
+        }
+        .screenRight{
+            width: 55%;
+            padding: 30px 0;
+            overflow-x: hidden;
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .wrap{
+        overflow-x: hidden;
+        .leftScreen{
+            align-items: center;
+            width: 40%;
+        }
+        .screenRight{
+            width: 60%;
+            padding: 30px 0;
+            overflow-x: hidden;
+        }
+    }
+}
+
+@media screen and (max-width: 644px) {
+    .wrap{
+        overflow-x: hidden;
+        .leftScreen{
+            .up{
+                .h3{
+                    font-size: 20px;
+                }
+                img{
+                    height: 40px;
+                }
+            }
+            .center{
+                a{
+                    .block_leftScreen{
+                        // height: 40px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .bottom{
+                a{
+                    .block_leftScreen{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .screenRight{
+            .up{
+                .text_up{
+                    font-size: 40px;
+                }
+            }
+            .bottom{
+                .block{
+                    .card{
+                        width: 250px;
+                        height: 300px;
+                        .textBg{
+                            .mainP{
+                                font-size: 22px;
+                            }
+                            p{
+                                font-size: 18px;
+                            }
+                            .addBtn{
+                                width: 150px;
+                                height: 40px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 589px) {
+    .wrap{
+        flex-direction: column;
+        .leftScreen{
+            width: 100%;
+            padding-top: 30px;
+            height: 136px;
+            padding: 0;
+            .up{
+                margin-top: 30px;
+                .h3{
+                    font-size: 30px;
+                }
+            }
+            .center{
+                flex-direction: row;
+                margin: 10px 0;
+                a{
+                    .block_leftScreen{
+                        background-color: none;
+                        background: none;
+                        color: #fff;
+                        width: auto;
+                        height: auto;
+                        font-size: 20px;
+                    }
+                    .block_leftScreen:hover{
+                        margin: 0;
+                        margin-left: 0;
+                    }
+                }
+            }
+            .bottom{
+                a{
+                    .block_leftScreen{
+                        width: 100%;
+                        margin: 0;
+                        border-radius: 0px;
+                    }
+                    .block_leftScreen:hover{
+                        margin: 0;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        .screenRight{
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            padding: 0;
+            padding-top: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .wrap{
+        .leftScreen{
+            .center{
+                a{
+                    .block_leftScreen{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

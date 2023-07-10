@@ -1,0 +1,141 @@
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B5FF7B;
+  border-radius: 3px 0 0 3px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .wrap .leftScreen {
+    padding: 30px 30px;
+  }
+  .wrap .leftScreen .up .h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 929px) {
+  .wrap {
+    overflow-x: hidden;
+  }
+  .wrap .leftScreen {
+    align-items: center;
+    width: 45%;
+  }
+  .wrap .screenRight {
+    width: 55%;
+    padding: 30px 0;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 820px) {
+  .wrap {
+    overflow-x: hidden;
+  }
+  .wrap .leftScreen {
+    align-items: center;
+    width: 40%;
+  }
+  .wrap .screenRight {
+    width: 60%;
+    padding: 30px 0;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 644px) {
+  .wrap {
+    overflow-x: hidden;
+  }
+  .wrap .leftScreen .up .h3 {
+    font-size: 20px;
+  }
+  .wrap .leftScreen .up img {
+    height: 40px;
+  }
+  .wrap .leftScreen .center a .block_leftScreen {
+    font-size: 15px;
+  }
+  .wrap .leftScreen .bottom a .block_leftScreen {
+    font-size: 15px;
+  }
+  .wrap .screenRight .up .text_up {
+    font-size: 40px;
+  }
+  .wrap .screenRight .bottom .block .card {
+    width: 250px;
+    height: 300px;
+  }
+  .wrap .screenRight .bottom .block .card .textBg .mainP {
+    font-size: 22px;
+  }
+  .wrap .screenRight .bottom .block .card .textBg p {
+    font-size: 18px;
+  }
+  .wrap .screenRight .bottom .block .card .textBg .addBtn {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 589px) {
+  .wrap {
+    flex-direction: column;
+  }
+  .wrap .leftScreen {
+    width: 100%;
+    padding-top: 30px;
+    height: 136px;
+    padding: 0;
+  }
+  .wrap .leftScreen .up {
+    margin-top: 30px;
+  }
+  .wrap .leftScreen .up .h3 {
+    font-size: 30px;
+  }
+  .wrap .leftScreen .center {
+    flex-direction: row;
+    margin: 10px 0;
+  }
+  .wrap .leftScreen .center a .block_leftScreen {
+    background-color: none;
+    background: none;
+    color: #fff;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+  }
+  .wrap .leftScreen .center a .block_leftScreen:hover {
+    margin: 0;
+    margin-left: 0;
+  }
+  .wrap .leftScreen .bottom a .block_leftScreen {
+    width: 100%;
+    margin: 0;
+    border-radius: 0px;
+  }
+  .wrap .leftScreen .bottom a .block_leftScreen:hover {
+    margin: 0;
+    margin-left: 0;
+  }
+  .wrap .screenRight {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 0;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .wrap .leftScreen .center a .block_leftScreen {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=adaptive.css.map */

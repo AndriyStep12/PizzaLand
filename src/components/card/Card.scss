@@ -1,220 +1,377 @@
-#cardJSX {
-    .card {
-        width: 300px;
-        height: 350px;
-        margin: 30px 0;
-        border-radius: 20px;
-        background-size: cover;
-        background-position: center;
-        cursor: pointer;
-
-        .textBg {
-            opacity: 0;
-            transition: 0.4s;
-            width: 300px;
-            padding: 18% 4%;
-            border-radius: 20px;
-            height: 350px;
-            background-color: #000000bc;
-            color: #fff;
-            font-family: 'Kavoon', cursive;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-
-            .mainP {
-                font-size: 25px;
-                text-align: left;
-                width: 100%;
-            }
-
-            #drink_item {
-                text-align: center;
-            }
-
-            p {
-                font-size: 20px;
-
-                .greenText {
-                    color: #B5FF7B;
-                }
-            }
-
-            .addBtn {
-                width: 170px;
-                height: 60px;
-                cursor: pointer;
-                background-color: #397300;
-                color: #B5FF7B;
-                border-radius: 5px;
-                border: none;
-                font-family: 'Kavoon', cursive;
-                font-size: 18px;
-                margin-top: 30px;
-            }
-        }
-    }
-}
-
-#cardJSX {
-    .card:hover {
-        .textBg {
-            opacity: 1;
-        }
-    }
-}
-
-.cardPopup {
-    width: 100%;
-    height: 100vh;
-
-    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
-        width: 1000px;
-        height: 80vh;
-        max-width: 100% !important;
-        background: linear-gradient(135deg, #343434 0%, #666 100%);
-        border-radius: 22px;
-        color: #B5FF7B;
-        font-family: 'Kavoon', cursive !important;
-
-        h2 {
-            font-family: 'Kavoon', cursive !important;
-            color: #fff;
-        }
-
-        .css-ypiqx9-MuiDialogContent-root {
-            display: flex;
-            flex-direction: row;
-            padding: 0;
-            padding-top: 30px;
-
-            .left {
-                width: 50%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-
-                .blockImg {
+.wrap {
+    .screenRight {
+        .bottom {
+            .block {
+                .card {
                     width: 300px;
-                    height: 300px;
+                    height: 350px;
+                    margin: 30px 0;
+                    border-radius: 20px;
                     background-size: cover;
                     background-position: center;
-                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .textBg {
+                        opacity: 0;
+                        transition: 0.4s;
+                        width: 100%;
+                        padding: 18% 4%;
+                        border-radius: 20px;
+                        height: 100%;
+                        background-color: #000000bc;
+                        color: #fff;
+                        font-family: 'Kavoon', cursive;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+
+                        .mainP {
+                            font-size: 25px;
+                            text-align: left;
+                            width: 100%;
+                        }
+
+                        #drink_item {
+                            text-align: center;
+                        }
+
+                        p {
+                            font-size: 20px;
+
+                            .greenText {
+                                color: #B5FF7B;
+                            }
+                        }
+
+                        .addBtn {
+                            width: 170px;
+                            height: 60px;
+                            cursor: pointer;
+                            background-color: #397300;
+                            color: #B5FF7B;
+                            border-radius: 5px;
+                            border: none;
+                            font-family: 'Kavoon', cursive;
+                            font-size: 18px;
+                            margin-top: 30px;
+                        }
+                    }
                 }
             }
 
-            .right {
-                width: 50%;
-                height: 100%;
-
-                .mainP {
-                    font-size: 35px;
+            #cardJSX {
+                .card:hover {
+                    .textBg {
+                        opacity: 1;
+                    }
                 }
+            }
 
-                .count_selection {
-                    margin-top: 30px;
-                    font-size: 20px;
-                    font-family: 'Montserrat', sans-serif;
-                    color: #fff;
+            .cardPopup {
+                width: 100%;
+                height: 100vh;
 
-                    .cntS {
-                        font-size: 20px;
-                        color: #B5FF7B;
-                        font-family: 'Kavoon', cursive;
+                .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+                    width: 1000px;
+                    height: 80vh;
+                    max-width: 100% !important;
+                    background: linear-gradient(135deg, #343434 0%, #666 100%);
+                    border-radius: 22px;
+                    color: #B5FF7B;
+                    font-family: 'Kavoon', cursive !important;
+
+                    h2 {
+                        font-family: 'Kavoon', cursive !important;
+                        color: #fff;
                     }
 
-                    .cnt-er {
-                        margin-top: 10px;
+                    .css-ypiqx9-MuiDialogContent-root {
                         display: flex;
                         flex-direction: row;
-                        font-size: 20px;
-                        color: #fff;
+                        padding: 0;
+                        padding-top: 30px;
 
-                        .min,
-                        .plus {
-                            width: 40px;
-                            height: 40px;
-                            background-color: #397300;
+                        .left {
+                            width: 50%;
+                            height: 100%;
                             display: flex;
                             justify-content: center;
-                            align-items: center;
-                            cursor: pointer;
+
+                            .blockImg {
+                                width: 300px;
+                                height: 300px;
+                                background-size: cover;
+                                background-position: center;
+                                border-radius: 10px;
+                            }
                         }
 
-                        .min {
-                            border-radius: 5px 0 0 5px;
-                        }
+                        .right {
+                            width: 50%;
+                            height: 100%;
 
-                        .plus {
-                            border-radius: 0 5px 5px 0;
-                        }
+                            .mainP {
+                                font-size: 35px;
+                            }
 
-                        .count {
-                            height: 40px;
-                            width: 60px;
-                            font-size: 17px;
-                            background-color: #397300;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-left: 1px solid #333;
-                            border-right: 1px solid #333;
+                            .count_selection {
+                                margin-top: 30px;
+                                font-size: 20px;
+                                font-family: 'Montserrat', sans-serif;
+                                color: #fff;
+
+                                .cntS {
+                                    font-size: 20px;
+                                    color: #B5FF7B;
+                                    font-family: 'Kavoon', cursive;
+                                }
+
+                                .cnt-er {
+                                    margin-top: 10px;
+                                    display: flex;
+                                    flex-direction: row;
+                                    font-size: 20px;
+                                    color: #fff;
+
+                                    .min,
+                                    .plus {
+                                        width: 40px;
+                                        height: 40px;
+                                        background-color: #397300;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        cursor: pointer;
+                                    }
+
+                                    .min {
+                                        border-radius: 5px 0 0 5px;
+                                    }
+
+                                    .plus {
+                                        border-radius: 0 5px 5px 0;
+                                    }
+
+                                    .count {
+                                        height: 40px;
+                                        width: 60px;
+                                        font-size: 17px;
+                                        background-color: #397300;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-left: 1px solid #333;
+                                        border-right: 1px solid #333;
+                                    }
+                                }
+                            }
+
+                            .size {
+                                margin-top: 30px;
+
+                                .yes {
+                                    display: flex;
+                                    font-size: 20px;
+                                    flex-direction: column;
+
+                                    .formControll {
+                                        margin-top: 10px;
+                                        background-color: #397300;
+                                        width: 300px;
+                                        border-radius: 5px;
+                                        font-family: 'Montserrat', sans-serif;
+
+                                        .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+                                            color: #fff;
+                                            font-family: 'Montserrat', sans-serif;
+                                        }
+
+                                        .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+                                            color: #fff;
+                                            font-family: 'Montserrat', sans-serif;
+                                        }
+
+                                        .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                                            border: none !important;
+                                        }
+
+                                        .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .price {
+                                font-size: 30px;
+                                margin-top: 30px;
+                            }
+
+                            .buyBtn {
+                                height: 50px;
+                                width: 200px;
+                                border: none;
+                                border-radius: 10px;
+                                background-color: #397300;
+                                color: #B5FF7B;
+                                font-family: 'Kavoon', cursive;
+                                font-size: 20px;
+                                margin-top: 30px;
+                            }
                         }
                     }
                 }
+            }
+        }
+    }
+}
 
-                .size {
-                    margin-top: 30px;
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 1000px;
+    height: 80vh;
+    max-width: 100% !important;
+    background: linear-gradient(135deg, #343434 0%, #666 100%);
+    border-radius: 22px;
+    color: #B5FF7B;
+    font-family: 'Kavoon', cursive !important;
 
-                    .yes {
-                        display: flex;
-                        font-size: 20px;
-                        flex-direction: column;
+    h2 {
+        font-family: 'Kavoon', cursive !important;
+        color: #fff;
+    }
 
-                        .formControll {
-                            margin-top: 10px;
-                            background-color: #397300;
-                            width: 300px;
-                            border-radius: 5px;
-                            font-family: 'Montserrat', sans-serif;
+    .css-ypiqx9-MuiDialogContent-root {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        padding-top: 30px;
 
-                            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
-                                color: #fff;
-                                font-family: 'Montserrat', sans-serif;
-                            }
+        .left {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
 
-                            .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
-                                color: #fff;
-                                font-family: 'Montserrat', sans-serif;
-                            }
+            .blockImg {
+                width: 300px;
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+                border-radius: 10px;
+            }
+        }
 
-                            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
-                                border: none !important;
-                            }
+        .right {
+            width: 50%;
+            height: 100%;
 
-                            .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
-                                color: #fff;
-                            }
-                        }
-                    }
-                }
+            .mainP {
+                font-size: 35px;
+            }
 
-                .price {
-                    font-size: 30px;
-                    margin-top: 30px;
-                }
+            .count_selection {
+                margin-top: 30px;
+                font-size: 20px;
+                font-family: 'Montserrat', sans-serif;
+                color: #fff;
 
-                .buyBtn {
-                    height: 50px;
-                    width: 200px;
-                    border: none;
-                    border-radius: 10px;
-                    background-color: #397300;
+                .cntS {
+                    font-size: 20px;
                     color: #B5FF7B;
                     font-family: 'Kavoon', cursive;
-                    font-size: 20px;
-                    margin-top: 30px;
                 }
+
+                .cnt-er {
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    font-size: 20px;
+                    color: #fff;
+
+                    .min,
+                    .plus {
+                        width: 40px;
+                        height: 40px;
+                        background-color: #397300;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+
+                    .min {
+                        border-radius: 5px 0 0 5px;
+                    }
+
+                    .plus {
+                        border-radius: 0 5px 5px 0;
+                    }
+
+                    .count {
+                        height: 40px;
+                        width: 60px;
+                        font-size: 17px;
+                        background-color: #397300;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-left: 1px solid #333;
+                        border-right: 1px solid #333;
+                    }
+                }
+            }
+
+            .size {
+                margin-top: 30px;
+
+                .yes {
+                    display: flex;
+                    font-size: 20px;
+                    flex-direction: column;
+
+                    .formControll {
+                        margin-top: 10px;
+                        background-color: #397300;
+                        width: 300px;
+                        border-radius: 5px;
+                        font-family: 'Montserrat', sans-serif;
+
+                        .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+                            color: #fff;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+
+                        .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+                            color: #fff;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+
+                        .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                            border: none !important;
+                        }
+
+                        .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .price {
+                font-size: 30px;
+                margin-top: 30px;
+            }
+
+            .buyBtn {
+                height: 50px;
+                width: 200px;
+                border: none;
+                border-radius: 10px;
+                background-color: #397300;
+                color: #B5FF7B;
+                font-family: 'Kavoon', cursive;
+                font-size: 20px;
+                margin-top: 30px;
             }
         }
     }

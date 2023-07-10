@@ -1,9 +1,8 @@
-.text_up {
+.wrap .screenRight .up .text_up {
   font-size: 60px;
   font-family: "Kavoon", cursive;
   color: #72D25A;
 }
-
 .screenRight {
   padding: 30px 50px;
   width: 70%;
