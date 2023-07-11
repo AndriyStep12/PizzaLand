@@ -9,6 +9,7 @@ import Drinks from "./components/drinksScreen/drinkScreen";
 import Cart from "./components/cart/cart";
 import HomePage from "./components/Home/Home";
 import './adaptive.css'
+import DisappearingPage from "./components/FadingPage/fade";
 
 const tele = window.Telegram.WebApp;
 

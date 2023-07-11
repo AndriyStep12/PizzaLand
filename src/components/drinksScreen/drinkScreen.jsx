@@ -3,9 +3,19 @@ import * as XLSX from 'xlsx';
 import exampleFile from '../database/database.xlsx';
 import Card from '../card/Card';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import loadingImg from '../images/loading.gif'
 
 function Drinks({cart, setCart}) {
   const [items, setItems] = useState([]);
+  const [showPage, setShowPage] = useState(true);
+
+  useEffect(() => {
+      const timer = setTimeout(() => {
+          setShowPage(false);
+      }, 2000);
+
+      return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -61,7 +71,12 @@ function Drinks({cart, setCart}) {
 
   return (
     <div className='screenRight'>
-        <div className="up">
+      {showPage ? (
+        <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <img src={loadingImg} alt="" />
+        </div>
+      ) : <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+          <div className="up">
             <p className='text_up'>Drinks</p>
         </div>
         <div className="bottom">
@@ -69,6 +84,7 @@ function Drinks({cart, setCart}) {
             {items.map((item, index) =>  <Grid key={index}><Card key={item} cart={cart} setCart={setCart} type={item.type} name={item.name} image={item.image} ingridients={item.ingridients} time={item.time} price={item.price} id={item.ID} sizes={item.sizes} /></Grid>)}
           </Grid>
         </div>
+        </div>}
     </div>
   );
 }
