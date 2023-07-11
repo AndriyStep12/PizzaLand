@@ -7,6 +7,7 @@ import Salads from "./components/saladsPage/saladPage";
 import './components/cssRightScreens/screenRight.css'
 import Drinks from "./components/drinksScreen/drinkScreen";
 import Cart from "./components/cart/cart";
+import HomePage from "./components/Home/Home";
 import './adaptive.css'
 
 const tele = window.Telegram.WebApp;
@@ -24,6 +25,9 @@ function App() {
       <div className="wrap">
         <LeftScreen/>
         <Switch>
+          <Route exact path="/">
+            <HomePage/>
+          </Route>
           <Route path="/pizzas">
             <Pizzas
               cart={cart}

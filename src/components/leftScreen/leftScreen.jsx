@@ -1,14 +1,9 @@
 import './leftScreen.css'
 import React, { useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../images/logo.png'
 
 function LeftScreen() {
-  const location = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0); // Переміщує вгору сторінки після кожного переходу
-  }, [location]);
 
   return (
     <div className="leftScreen">
