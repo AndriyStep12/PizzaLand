@@ -138,7 +138,7 @@ function Cart({ cart, setCart }) {
   return (
     <div className="screenRight" id="cartPage">
       {showPage ? (
-        <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
           <img src={loadingImg} alt="" />
         </div>
       ) : (
